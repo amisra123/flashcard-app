@@ -1,46 +1,71 @@
 import './App.css';
-import React from 'react';
+import React, { Fragment } from 'react';
 import 'font-awesome/css/font-awesome.css';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <nav class='navbar navbar-fixed-top' role='navigation'>
-      <div class='container'>
-        <div class='navbar-header'>
-          <button
-            type='button'
-            class='navbar-toggle'
-            data-toggle='collapse'
-            data-target='#navbar-collapse'
-          >
-            <span
-              class='glyphicon glyphicon-menu-hamburger'
-              aria-hidden='true'
-            ></span>
-            <span class='sr-only'>Toggle navigation</span>
-            <span class='icon-bar'></span>
-            <span class='icon-bar'></span>
-            <span class='icon-bar'></span>
-          </button>
-
-          <a class='navbar-brand' href='#'></a>
+    <Fragment>
+      <Navbar />
+      <section class='grid-1'>
+        <div class='container'>
+          <div class='row' id='midrow'>
+            <div class='flip-container' id='flashcard'>
+              <div class='flipper'>
+                <div class='front'>
+                  <span id='flashcard--content_en'>almonds</span>
+                </div>
+                <div class='back'>
+                  <span id='flashcard--content_es'>almendras</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class='collapse navbar-collapse' id='navbar-collapse'>
-          <ul class='nav navbar-nav navbar-right'>
-            <li>
-              <a href=''>Browse</a>
-            </li>
-            <li>
-              <a href=''>Learn</a>
-            </li>
-            <li>
-              <a href=''>Create</a>
-            </li>
-          </ul>
+        <div class='container'>
+          <div class='row' id='midrow'>
+            <div class='flip-container' id='flashcard'>
+              <div class='flipper'>
+                <div class='front'>
+                  <span id='flashcard--content_en'>almonds</span>
+                </div>
+                <div class='back'>
+                  <span id='flashcard--content_es'>almendras</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </nav>
+        <div class='container'>
+          <div class='row' id='midrow'>
+            <div class='flip-container' id='flashcard'>
+              <div class='flipper'>
+                <div class='front'>
+                  <span id='flashcard--content_en'>almonds</span>
+                </div>
+                <div class='back'>
+                  <span id='flashcard--content_es'>almendras</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='container'>
+          <div class='row' id='midrow'>
+            <div class='flip-container' id='flashcard'>
+              <div class='flipper'>
+                <div class='front'>
+                  <span id='flashcard--content_en'>almonds</span>
+                </div>
+                <div class='back'>
+                  <span id='flashcard--content_es'>almendras</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </Fragment>
   );
 }
 
