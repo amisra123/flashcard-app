@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-@import url('https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy');
-@import url('https://fonts.googleapis.com/css?family=Arvo');
+@import 'https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy';
+@import 'https://fonts.googleapis.com/css?family=Arvo';
 @import url('https://fonts.googleapis.com/css?family=Buenard');
-/* @import url('font-awesome/css/font-awesome.min.css" type="text/css');  */
-@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
-@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css');
-@import url('//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css');
+@import 'font-awesome/css/font-awesome.min.css" type="text/css';
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css';
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css';
+@import '//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css';
 @import url('https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css');
 
 * {
