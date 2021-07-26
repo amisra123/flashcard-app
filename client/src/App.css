@@ -20,16 +20,11 @@ wrap {
   padding: 0 0 60px;
 }
 
-.navbar {
-  box-shadow: 0px 5px 16px -1px rgba(163, 163, 163, 0.4);
-  font-family: 'Sorts Mill Goudy', serif;
-  color: #a78ac3;
-  height: 82px;
-  vertical-align: middle;
+/* .navbar {
   background-color: white;
-}
+} */
 
-.navbar-brand {
+/* .navbar-brand {
   position: relative;
   padding: 0 28px 0 15px;
   font-size: 25px;
@@ -57,7 +52,7 @@ wrap {
 
 #navbar-collapse {
   background-color: white;
-}
+} */
 
 .glyphicon-menu-hamburger {
   padding: 10px 0 10px 0;
@@ -65,9 +60,8 @@ wrap {
   font-size: 20px;
   color: #337ab7;
 }
-
 #midrow {
-  margin-top: 120px;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
@@ -135,7 +129,7 @@ wrap {
 
 .grid-1 {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   grid-template-rows: auto auto auto;
   grid-gap: 20px;
 }
@@ -144,7 +138,7 @@ wrap {
 
 .grid-1 div {
   color: white;
-  font-size: 40px;
+  /* //font-size: 30px; */
 }
 
 /* specific item styles */
@@ -192,16 +186,23 @@ wrap {
     height: 80vh;
   }
 }
+.font-back {
+  font-size: 30px;
+}
 
 .front,
 .back {
   text-align: center;
   font-family: 'Arvo';
-  font-size: 2.4em;
+  font-size: 1.4em;
   line-height: 1em;
   padding-top: calc(50% - 3em);
   color: #ffffff;
   /* 	border: 1px solid #95A39D; */
+}
+
+.back {
+  padding-top: 40px;
 }
 
 /* flip speed goes here */
